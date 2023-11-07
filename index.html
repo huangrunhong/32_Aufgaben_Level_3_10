@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Vertiefung: Projekt Caesar Cipher</title>
+    <style>
+      section {
+        margin: 10rem auto;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <form>
+        <input type="text" placeholder="write text.." id="textInput" />
+        <input type="number" placeholder="key.." id="numberInput" />
+        <input type="button" value="encoder" onclick="enCoder()" />
+        <input type="button" value="decoder" onclick="deCoder()" />
+      </form>
+      <p id="textOutput"></p>
+    </section>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
